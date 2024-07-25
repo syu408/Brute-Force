@@ -9,7 +9,7 @@ login_failed_string = input('[+] Enter String That Occurs When Login Fails: ')
 cookie_value = input('Enter Cookie Value(Optional): ')
 
 
-def cracking(username,url):
+def cracking(username,url):kubilayyy_xy
 	for password in passwords:
 		password = password.strip()
 		print(colored(('Trying: ' + password), 'red'))
